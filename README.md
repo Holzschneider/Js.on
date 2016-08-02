@@ -67,7 +67,7 @@ Release
 The current state of the project is to be considered "incomplete and in development".
 
 Releases are deployed automatically to the deploy branch of this github repostory. 
-To add a dependency on *Js.on* using maven, modify your *repositories* section to include the git based repository.
+To add a dependency to *Js.on* using maven, modify your *repositories* section to include the git based repository.
 
 	<repositories>
 	 ...
