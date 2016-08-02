@@ -27,7 +27,7 @@ Imagine code stunts like ...
 **Js.as Java Type coercion**
 
 	// register.json
-	[ { "name": "John Appleseed", "age": 35, "employer": { "name": "Apple inc.", "capitilization": 500e9 }, ... ]
+	[ { "name": "John Appleseed", "age": 35, "employer": { "name": "Apple inc.", "capitalization": 500e9 } ]
 	
 	interface Employee {
 		String name();
@@ -52,8 +52,8 @@ Imagine code stunts like ...
 	Js.on(1,2,3,4,5).concat( Js.on("x","y","z"), false ).slice(4, 9).join(":")
 	.equals("5:x:y:z");
 	
-	Arrays.toString( Js.on( 1,2,3).put(10, false).to(Object[].class) )
-	.equals("[1, 2, 3, undefined, undefined, undefined, undefined, undefined, undefined, undefined, false]");
+	Arrays.toString( Js.on( 1,2,3).put(9, false).to(Object[].class) )
+	.equals("[1, 2, 3, undefined, undefined, undefined, undefined, undefined, undefined, false]");
 	
 	Js.on("10.0").equals(10) == true
 	Js.on(false).equals("0") == true
