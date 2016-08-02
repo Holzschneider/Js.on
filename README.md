@@ -79,7 +79,7 @@ To add a dependency to *Js.on* using maven, modify your *repositories* section t
 	...
 	</repositories>
 	
-and modify your *dependencies* section to include the graphics3d dependency
+and modify your *dependencies* section to include the dependency
  
 	  <dependencies>
 	  ...
@@ -90,6 +90,7 @@ and modify your *dependencies* section to include the graphics3d dependency
 	  	</dependency>
 	  ...
 	  </dependencies>
+
 
 
 To add the repository and the dependency using gradle refer to this
