@@ -86,7 +86,7 @@ and modify your *dependencies* section to include the graphics3d dependency
 	  	<dependency>
 	  		<groupId>de.dualuse.commons</groupId>
 	  		<artifactId>Js.on</artifactId>
-	  		<version>1.0.0</version>
+	  		<version>LATEST</version>
 	  	</dependency>
 	  ...
 	  </dependencies>
@@ -103,5 +103,5 @@ To add the repository and the dependency using gradle refer to this
 and this
 
 	dependencies {
-	  compile 'de.dualuse.commons:Js.on:1.0.+'
+	  compile 'de.dualuse.commons:Js.on:0.+'
 	}
