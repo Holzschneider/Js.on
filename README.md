@@ -72,9 +72,9 @@ To add a dependency to *Js.on* using maven, modify your *repositories* section t
 	<repositories>
 	 ...
 	  <repository>
-	    <id>Js.on-Repository</id>
-	    <name>Js.on Git-based repo</name>
-	    <url>https://raw.githubusercontent.com/Holzschneider/Js.on/deploy/</url>
+	    <id>dualuse-Repository</id>
+	    <name>dualuse's Git-based repo</name>
+	    <url>https://dualuse.github.io/maven</url>
 	  </repository>
 	...
 	</repositories>
@@ -84,7 +84,7 @@ and modify your *dependencies* section to include the dependency
 	  <dependencies>
 	  ...
 	  	<dependency>
-	  		<groupId>de.dualuse.commons</groupId>
+	  		<groupId>de.dualuse</groupId>
 	  		<artifactId>Js.on</artifactId>
 	  		<version>LATEST</version>
 	  	</dependency>
@@ -97,7 +97,7 @@ To add the repository and the dependency using gradle refer to this
 
 	repositories {
 	    maven {
-	        url "https://raw.githubusercontent.com/Holzschneider/Js.on/deploy/"
+	        url "https://dualuse.github.io/maven"
 	    }
 	}
 
